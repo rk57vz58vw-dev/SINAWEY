@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <defs>
+    <radialGradient id="bg" cx="0.5" cy="0.4" r="0.8">
+      <stop offset="0" stop-color="#fbf3e1"/>
+      <stop offset="1" stop-color="#e2cda0"/>
+    </radialGradient>
+    <linearGradient id="bowl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a5636"/>
+      <stop offset="1" stop-color="#3b2a1a"/>
+    </linearGradient>
+    <radialGradient id="date" cx="0.35" cy="0.3" r="0.9">
+      <stop offset="0" stop-color="#8a5a34"/>
+      <stop offset="0.55" stop-color="#4e301a"/>
+      <stop offset="1" stop-color="#2a180c"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <ellipse cx="300" cy="500" rx="210" ry="26" fill="#3b2a1a" opacity="0.18"/>
+  <g>
+    <ellipse cx="190" cy="355" rx="54" ry="34" transform="rotate(-20 190 355)" fill="url(#date)"/>
+    <ellipse cx="270" cy="320" rx="56" ry="34" transform="rotate(10 270 320)" fill="url(#date)"/>
+    <ellipse cx="350" cy="322" rx="56" ry="34" transform="rotate(-12 350 322)" fill="url(#date)"/>
+    <ellipse cx="420" cy="352" rx="54" ry="34" transform="rotate(22 420 352)" fill="url(#date)"/>
+    <ellipse cx="230" cy="385" rx="56" ry="34" transform="rotate(8 230 385)" fill="url(#date)"/>
+    <ellipse cx="310" cy="372" rx="58" ry="35" transform="rotate(-6 310 372)" fill="url(#date)"/>
+    <ellipse cx="385" cy="390" rx="54" ry="34" transform="rotate(14 385 390)" fill="url(#date)"/>
+  </g>
+  <g fill="#ffffff" opacity="0.18">
+    <ellipse cx="262" cy="308" rx="22" ry="7" transform="rotate(10 262 308)"/>
+    <ellipse cx="342" cy="310" rx="22" ry="7" transform="rotate(-12 342 310)"/>
+    <ellipse cx="302" cy="360" rx="24" ry="7" transform="rotate(-6 302 360)"/>
+    <ellipse cx="182" cy="343" rx="20" ry="6" transform="rotate(-20 182 343)"/>
+    <ellipse cx="412" cy="340" rx="20" ry="6" transform="rotate(22 412 340)"/>
+  </g>
+  <path d="M110 380 H490 C490 460 420 500 300 500 C180 500 110 460 110 380Z" fill="url(#bowl)"/>
+  <rect x="104" y="372" width="392" height="16" rx="8" fill="#9a6e43"/>
+  <path d="M150 410 H450" stroke="#c9a24b" stroke-width="3" opacity="0.7"/>
+  <path d="M170 432 H430" stroke="#c9a24b" stroke-width="2" opacity="0.45"/>
+</svg>
