@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3d9a4"/>
+      <stop offset="0.55" stop-color="#f8e8c6"/>
+      <stop offset="1" stop-color="#fbf3e1"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff3cf"/>
+      <stop offset="0.6" stop-color="#f6cf77"/>
+      <stop offset="1" stop-color="#f6cf77" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mtn1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8704a"/>
+      <stop offset="1" stop-color="#c99a6b"/>
+    </linearGradient>
+    <linearGradient id="mtn2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a5a3a"/>
+      <stop offset="1" stop-color="#b98457"/>
+    </linearGradient>
+    <linearGradient id="dune1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e2c48e"/>
+      <stop offset="1" stop-color="#d3ae72"/>
+    </linearGradient>
+    <linearGradient id="dune2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9a068"/>
+      <stop offset="1" stop-color="#a97f47"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <circle cx="1130" cy="330" r="300" fill="url(#sun)"/>
+  <circle cx="1130" cy="330" r="86" fill="#fff0c4" opacity="0.95"/>
+  <path d="M0 560 L140 440 L240 500 L380 370 L520 510 L620 450 L760 560 L900 430 L1020 520 L1160 410 L1300 520 L1440 440 L1600 540 L1600 700 L0 700Z" fill="url(#mtn1)" opacity="0.8"/>
+  <path d="M0 620 L180 500 L300 580 L470 450 L640 590 L780 520 L960 620 L1120 500 L1280 600 L1440 520 L1600 610 L1600 760 L0 760Z" fill="url(#mtn2)"/>
+  <path d="M0 700 C220 640 420 660 640 700 C860 740 1060 650 1280 680 C1440 700 1520 690 1600 670 L1600 900 L0 900Z" fill="url(#dune1)"/>
+  <path d="M0 790 C260 730 520 760 780 800 C1040 840 1300 760 1600 790 L1600 900 L0 900Z" fill="url(#dune2)"/>
+  <g opacity="0.55" fill="#4f5d2a">
+    <path d="M1380 900 C1380 760 1400 650 1450 560 C1445 650 1440 760 1430 900Z"/>
+    <g>
+      <ellipse cx="1465" cy="575" rx="42" ry="13" transform="rotate(-35 1465 575)"/>
+      <ellipse cx="1500" cy="625" rx="46" ry="13" transform="rotate(-18 1500 625)"/>
+      <ellipse cx="1430" cy="540" rx="40" ry="12" transform="rotate(-62 1430 540)"/>
+      <ellipse cx="1415" cy="610" rx="44" ry="13" transform="rotate(25 1415 610)"/>
+      <ellipse cx="1395" cy="670" rx="46" ry="13" transform="rotate(35 1395 670)"/>
+      <ellipse cx="1490" cy="690" rx="46" ry="13" transform="rotate(-10 1490 690)"/>
+    </g>
+  </g>
+</svg>
